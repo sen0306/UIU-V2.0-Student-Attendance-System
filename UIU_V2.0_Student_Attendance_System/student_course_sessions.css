@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+body {
+    background: linear-gradient(to right, #e2e2e2, #c9d6ff);
+    color: #333;
+    min-height: 100vh;
+}
+
+.logo {
+    display: flex;
+    margin-top: 16px;
+    padding: 10px;
+    font-size: 2.5rem;
+    border-bottom: 3px #000000 solid;
+}
+
+.left-arrow {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.left-arrow p{
+    color: #999;
+    font-size: 2rem;
+    margin-top: 30px;
+}
+
+.fa-angle-left {
+    font-size: 3rem;
+    margin-left: 3rem;
+    margin-top: 2rem;
+    color:black;
+}
+
+.fa-angle-left:hover {
+    color:#6b6b6b;
+    transition: 0.3s ease;
+}
+
+table {
+    width: 650px;
+    border-collapse: collapse;
+    background: white;
+    margin-bottom: 4rem;
+}
+
+th {
+    border: 1px solid #000000;
+    text-align: center;
+    padding: 8px;
+    background: lightblue;
+    color: black;
+}
+
+td {
+    border: 1px solid #000000;
+    padding: 8px;
+    text-align: center;
+}
+
+.table-container {
+    margin: auto;
+    margin-top: 4rem;
+    width: fit-content;
+}
+
+.month-filter-form select {
+    font-size: 16px;
+    border: 1px solid black;
+    background: white;
+    cursor: pointer;
+}

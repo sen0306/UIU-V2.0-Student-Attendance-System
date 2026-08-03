@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+body {
+    background: linear-gradient(to right, #e2e2e2, #c9d6ff);
+    color: #333;
+    min-height: 100vh;
+}
+
+.logo {
+    display: flex;
+    margin-top: 16px;
+    padding: 10px;
+    font-size: 2.5rem;
+    border-bottom: 3px #000000 solid;
+}
+
+.left-arrow {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.left-arrow p{
+    color: #999;
+    font-size: 2rem;
+    margin-top: 30px;
+}
+
+.fa-angle-left {
+    font-size: 3rem;
+    margin-left: 3rem;
+    margin-top: 2rem;
+    color:black;
+}
+
+.fa-angle-left:hover {
+    color:#6b6b6b;
+    transition: 0.3s ease;
+}
+
+.form-box {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 16px;
+}
+
+.form-box h2 {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 6px;
+    font-size: 14px;
+    color: #555;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 12px;
+    background: #eee;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background: lightgreen;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 500;
+    transition: 0.5s;
+}
+
+button:hover {
+    background: rgb(130, 216, 130);
+}
+
+.error-message {
+    color: #cc0000;
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.checkbox-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 20px;
+}
+
+.checkbox-item {
+    display: flex !important;
+    align-items: center;
+    gap: 8px;
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 0;
+}
+
+.checkbox-item input[type="checkbox"] {
+    width: auto;
+    margin-bottom: 0;
+}

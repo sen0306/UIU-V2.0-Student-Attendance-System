@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+body {
+    background: linear-gradient(to right, #e2e2e2, #c9d6ff);
+    color: #333;
+    min-height: 100vh;
+}
+
+.logo {
+    display: flex;
+    margin-top: 16px;
+    padding: 10px;
+    font-size: 2.5rem;
+    border-bottom: 3px #000000 solid;
+}
+
+.left-arrow {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.left-arrow p{
+    color: #999;
+    font-size: 2rem;
+    margin-top: 30px;
+}
+
+.fa-angle-left {
+    font-size:3rem;
+    margin-left: 3rem;
+    margin-top: 2rem;
+    color:black;
+}
+
+.fa-angle-left:hover {
+    color:#6b6b6b;
+    transition: 0.3s ease;
+}
+
+table {
+    width: 100%;
+    margin: auto;
+    border-collapse: collapse;
+    border: 1px solid black;
+    background: white;
+}
+
+th {
+    border: 1px solid #000000;
+    text-align: center;
+    padding: 8px;
+    background: lightblue;
+    color: black;
+}
+
+td {
+    border: 1px solid #000000;
+    padding: 8px;
+    text-align: center;
+}
+
+.table-container {
+    width: 60%;
+    margin: auto;
+    margin-top: 4rem;
+}
+
+.table-actions {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.action-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+
+.action-buttons a {
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 4px 10px;
+    font-size: 14px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.btn-edit {
+    background: #7494ec;
+    color: #fff;
+    border-color: #7494ec;
+}
+
+.btn-edit:hover {
+    background: #6884d3;
+}
+
+.btn-remove {
+    background: #cc0000;
+    color: #fff;
+    border-color: #cc0000;
+}
+
+.btn-remove:hover {
+    background: #a80000;
+}
+
+.btn-add {
+    text-decoration: none;
+    color: black;
+    border-radius: 5px;
+    background-color: lightgray;
+}
+
+.btn-add:hover {
+    background-color: rgb(193, 193, 193);
+}
+
+.btn-add p {
+    font-size: 16px;
+    padding: 5px;
+}
+
+.btn-add {
+    text-decoration: none;
+    color: black;
+    border-radius: 5px;
+    background-color: lightgray;
+}
+
+.btn-add p {
+    font-size: 16px;
+    padding: 5px;
+}
+
+.error-message {
+    color: #cc0000;
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 15px;
+    padding: 10px;
+    background: #ffe6e6;
+    border: 1px solid #cc0000;
+    border-radius: 4px;
+}
